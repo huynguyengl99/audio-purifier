@@ -1,0 +1,21 @@
+# Byte-compiled / Optimized / DLL Files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Distribution / Packaging
+.venv/
+venv/
+dist
+
+
+# Unit Test
+.pytest_cache/
+
+# Ignore IDE, Editor Files
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
