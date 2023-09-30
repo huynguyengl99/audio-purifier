@@ -7,6 +7,13 @@ repos:
     rev: v4.4.0
     hooks:
     -   id: check-added-large-files
+        exclude: |
+            (?x)^(
+                tests/data/raw_audio.m4a|
+                tests/data/raw_audio.wav|
+                tests/data/silences.m4a|
+                audio_purifier/assets/silero_vad.onnx
+            )$
     -   id: check-toml
     -   id: check-yaml
         args:

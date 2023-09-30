@@ -10,8 +10,11 @@ venv/
 dist
 
 
-# Unit Test
+# Unit Test & coverage
 .pytest_cache/
+htmlcov
+.coverage
+coverage.xml
 
 # Ignore IDE, Editor Files
 .idea/
