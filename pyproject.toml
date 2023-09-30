@@ -38,7 +38,7 @@ extra = [
 ]
 
 [project.urls]
-Documentation = "https://github.com/huynguyengl99/audio-purifier"
+Documentation = "https://audio-purifier.readthedocs.io/"
 Homepage = "https://github.com/huynguyengl99/audio-purifier"
 Repository = "https://github.com/huynguyengl99/audio-purifier"
 

@@ -1,3 +1,5 @@
+[![CI](https://github.com/huynguyengl99/audio-purifier/workflows/Test/badge.svg)](https://github.com/huynguyengl99/audio-purifier/actions?query=workflow%3ATest) [![PyPI version](https://badge.fury.io/py/audio-purifier.svg)](https://badge.fury.io/py/audio-purifier)
+
 # Audio Purifier
 
 **Audio Purifier** is a utility package that enables silent parts
@@ -41,5 +43,5 @@ pip install git+https://github.com/huynguyengl99/audio-purifier@master
 </details>
 
 ## Document
-
-To be defined
+Please visit [Audio Purifier doc](https://audio-purifier.readthedocs.io/) for
+documentation.
