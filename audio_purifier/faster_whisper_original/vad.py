@@ -2,7 +2,7 @@ import bisect
 import functools
 import os
 import warnings
-from typing import List, NamedTuple, Optional
+from typing import NamedTuple, Optional
 
 import numpy as np
 
@@ -42,7 +42,7 @@ def get_speech_timestamps(
     audio: np.ndarray,
     vad_options: Optional[VadOptions] = None,
     **kwargs,
-) -> List[dict]:
+) -> list[dict]:
     """This method is used for splitting long audios into speech chunks using silero VAD.
 
     Args:
@@ -187,7 +187,7 @@ def get_speech_timestamps(
     return speeches
 
 
-def collect_chunks(audio: np.ndarray, chunks: List[dict]) -> np.ndarray:
+def collect_chunks(audio: np.ndarray, chunks: list[dict]) -> np.ndarray:
     """Collects and concatenates audio chunks."""
     if not chunks:
         return np.array([], dtype=np.float32)
@@ -198,7 +198,7 @@ def collect_chunks(audio: np.ndarray, chunks: List[dict]) -> np.ndarray:
 class SpeechTimestampsMap:
     """Helper class to restore original speech timestamps."""
 
-    def __init__(self, chunks: List[dict], sampling_rate: int, time_precision: int = 2):
+    def __init__(self, chunks: list[dict], sampling_rate: int, time_precision: int = 2):
         self.sampling_rate = sampling_rate
         self.time_precision = time_precision
         self.chunk_end_sample = []
