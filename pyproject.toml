@@ -16,7 +16,6 @@ classifiers = [
   "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3.10",
   "Programming Language :: Python :: 3.11",
-  "Programming Language :: Python :: 3.8",
   "Programming Language :: Python :: 3.9",
   "Topic :: Multimedia :: Sound/Audio :: Conversion"
 ]
@@ -31,7 +30,7 @@ dynamic = ["version"]
 license = "MIT"
 name = "audio-purifier"
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.9"
 
 [project.optional-dependencies]
 extra = [

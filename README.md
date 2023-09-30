@@ -6,7 +6,7 @@ removal from audio, exporting as new files. Inspired by
 
 ## Requirements
 
-* Python 3.8 or greater
+* Python 3.9 or greater
 
 
 * You can open and save `WAV` files with pure python. For opening
