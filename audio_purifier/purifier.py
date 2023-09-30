@@ -31,7 +31,7 @@ def purify(
     vad_parameters: Optional[Union[dict, VadOptions]] = None,
     sampling_rate: int = 16000,
 ) -> Optional[io.BytesIO]:
-    """Purify an audio file.
+    """Purify an audio file: remove silences and return a BytesIO object.
 
     Arguments:
       audio: Path to the input file (or a file-like object), or the audio waveform.
@@ -40,8 +40,8 @@ def purify(
         parameters and default values in the class `VadOptions`).
       sampling_rate: Resample the audio to this sample rate.
     Returns:
-      A BytesIO object that contains the processed audio, and None in case the initial audio
-       contains full of silences.
+      **BytesIO** object that contains the processed audio, and **None** in case the initial audio
+      contains full of silences.
     """
     if export_format != "wav" and not installed_pydub:
         raise ImportError(
@@ -99,7 +99,7 @@ def purify_and_export(
     vad_parameters: Optional[Union[dict, VadOptions]] = None,
     sampling_rate: int = 16000,
 ) -> bool:
-    """Purify an audio file and then export it.
+    """Purify an audio file and then export it to `export` field.
 
     Arguments:
       audio: Path to the input file (or a file-like object), or the audio waveform.

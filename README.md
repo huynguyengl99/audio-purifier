@@ -22,6 +22,13 @@ The module can be installed from [PyPI](https://pypi.org/project/audio-purifier/
 pip install audio-purifier
 ```
 
+To have the ability to export output file as other than 'wav' format, please install
+[ffmpeg](http://www.ffmpeg.org/) to your run time and install PyDub library as well.
+
+```bash
+pip install audio-purifier[extra]
+```
+
 <details>
 <summary>Other installation methods (click to expand)</summary>
 

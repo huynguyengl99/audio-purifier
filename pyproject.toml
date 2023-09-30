@@ -23,7 +23,7 @@ dependencies = [
   "av==10.*",
   "numpy>=1.0.0,<2",
   "onnxruntime<2,>=1.14",
-  "scipy>=1.11,<2"
+  "scipy>=1.0.0,<2"
 ]
 description = "Enables silent parts removal from audio, exporting as new files. Inspired by 'faster-whisper'."
 dynamic = ["version"]
