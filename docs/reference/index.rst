@@ -10,3 +10,7 @@ Vad options
 .. autoclass:: audio_purifier.VadOptions
     :members:
     :no-index:
+
+Utils
+----------
+.. autofunction:: audio_purifier.preload_models

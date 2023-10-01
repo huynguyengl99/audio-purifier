@@ -4,7 +4,7 @@
 
 **Audio Purifier** is a utility package that enables silent parts
 removal from audio, exporting as new files. Inspired by
-'faster-whisper'.
+`faster-whisper`, which used SileroVAD for audio processing..
 
 ## Requirements
 

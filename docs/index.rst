@@ -8,7 +8,8 @@ Welcome to Audio Purifier's documentation!
 
 **Audio Purifier** is a utility package that enables silent parts
 removal from audio, exporting as new files. Inspired by
-`faster-whisper <https://github.com/guillaumekln/faster-whisper/>`_.
+`faster-whisper <https://github.com/guillaumekln/faster-whisper/>`_, which
+used SileroVAD for audio processing.
 
 .. note::
 
